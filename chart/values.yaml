@@ -17,6 +17,9 @@ imagePullSecrets: []
 monitoring:
   enabled: false
 
+authservice:
+  enabled: false
+
 # Ingress gateways
 # The following items are automatically set for every ingress gateway:
 # - label: "app: {name of ingress gateway}"
